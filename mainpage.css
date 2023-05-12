@@ -1,0 +1,129 @@
+*{
+  background-color: #cdf6ce;
+}
+header {
+position: fixed;
+margin:0 ;
+padding: 0;
+top: 0;
+display: flex;
+left: 75px;
+}
+
+.container {
+  position: fixed;
+  left: 700px;
+  top: 130px;
+}
+
+.box {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  margin: 0px;
+  text-align:center;
+  font-family:  Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+ } 
+  
+ .profile img {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  left:1200px;
+  top:120px;
+ }
+
+ .search-container {
+  display:flex;
+  justify-content: center;
+  position: fixed;
+  top: 400px;
+  left:550px;
+  z-index: 2;
+  
+ 
+}
+
+input[type=text] {
+  width: 350px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+}
+
+button[type=submit] {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.searchimage{
+  background-image: url(images/view.jpg);
+  display: inline-block;
+  width: 800px;
+  height: 300px;
+  margin: 0px;
+  top: 270px;
+  left: 350px;
+  position:fixed;
+  z-index: index 1;
+
+}
+
+
+
+
+a {
+  color: black;
+
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: black; /* Ziyaret edilen bağlantıların rengi */
+  text-decoration: none;
+}
+
+.experiences{
+  position: relative;
+  top: 600px;
+  left:100px;
+  z-index: 3;
+  
+}
+
+.experiences p {
+  font-size: 30px;
+  font-family: Helvetica;
+  font-weight:bolder;
+  color: palevioletred;
+}
+
+
+.images {
+  display: flex; /* Flexbox kullanarak resimleri yanyana hizala */
+  margin-top: 1px; /* 10px margin top */
+}
+
+.images .food {
+  margin-right: 1px; /* 10px margin right */
+}
+
+.images img {
+  width: 450px;
+  height: 400px;
+}
+
+
